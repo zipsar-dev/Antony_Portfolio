@@ -1,0 +1,53 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Afacad:ital,wght@0,400..700;1,400..700&display=swap");
+@import "tailwindcss";
+
+@theme {
+  --font-secondary: "ABeeZee", sans-serif;
+  --font-primary: "Afacad", sans-serif;
+}
+body {
+  overflow-x: hidden;
+}
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.col-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flex-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.col-around {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+}
+.col-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.flex-end {
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+.col-start {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+}
