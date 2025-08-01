@@ -72,7 +72,7 @@ const Contact = () => {
           from_email: formData.email,
           subject: formData.subject || "New message from contact form",
           message: formData.message,
-          to_email: "yogeshvenugopal22@gmail.com", // Replace with your email
+          to_email: "dinucorera@gmail.com", // Replace with your email
         }
       );
 
