@@ -182,10 +182,9 @@ const Contact = () => {
                   />
                   <p className="text-sm leading-relaxed font-secondary w-[70%]">
                     <span className="text-[#FE4A23]">
-                      You can find me in my studio{" "}
+                      Start a conversation{" "}
                     </span>
-                    if you want to take a look at my sculptures, address is via
-                    sacra 69, Toulouse, France.
+                    that could lead to something great.
                   </p>
                 </div>
               </div>
