@@ -11,7 +11,7 @@ const Footer = () => {
             <ul className="flex justify-between items-center gap-4 sm:gap-6 lg:gap-10 w-[90%] max-w-md lg:w-[80%]">
               <li>
                 <a
-                  href="https://www.linkedin.com/in/antonycorera/" 
+                  href="https://www.linkedin.com/in/antonycorera/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-sm sm:text-base lg:text-lg cursor-pointer hover:underline"
@@ -19,36 +19,7 @@ const Footer = () => {
                   LinkedIn
                 </a>
               </li>
-              {/* <li>
-                <a
-                  href="https://facebook.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm sm:text-base lg:text-lg cursor-pointer hover:underline"
-                >
-                  Facebook
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://twitter.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm sm:text-base lg:text-lg cursor-pointer hover:underline"
-                >
-                  X
-                </a>
-              </li>
-              <li>
-                <a
-                  href="https://github.com/"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-sm sm:text-base lg:text-lg cursor-pointer hover:underline"
-                >
-                  GitHub
-                </a>
-              </li> */}
+              {/* Optional Social Links (commented) */}
             </ul>
           </div>
         </div>
@@ -106,10 +77,10 @@ const Footer = () => {
                 </li>
                 <li>
                   <a
-                    href="#Service"
+                    href="#Contact"
                     className="cursor-pointer hover:underline text-sm sm:text-base"
                   >
-                    Service
+                    Contact
                   </a>
                 </li>
               </ul>
@@ -119,9 +90,14 @@ const Footer = () => {
       </div>
 
       {/* Bottom Black Section */}
-      <div className="bg-black w-full min-h-[80px] py-3 text-center text-white text-xs sm:text-sm">
-        <div className="w-full flex justify-center items-center py-3 mt-8 lg:mt-5">
-          <p className="text-xs sm:text-sm">&#169; {new Date().getFullYear()} ALL RIGHTS RESERVED</p>
+      <div className="bg-black w-full py-3 text-center text-white text-xs sm:text-sm">
+        <div className="py-3 mt-8 lg:mt-5">
+          <p className="text-xs sm:text-sm">
+            &#169; {new Date().getFullYear()} ALL RIGHTS RESERVED
+          </p>
+          <p className="text-xs sm:text-sm mt-1">
+            Developed with ❤️ by <a href="https://zipsar.com" target="_blank" rel="noopener noreferrer" className="underline hover:text-gray-300">Zipsar</a>
+          </p>
         </div>
       </div>
     </div>
